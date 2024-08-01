@@ -1,0 +1,90 @@
+Command list:
+
+<> brackets means user input 
++ indicates using both keywords
+
+
+  KEYWORD                             FUNCTION                                                                                                   
+ ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+| time                             |  tells the current time                                                                                 |
+|                                  |                                                                                                         |   
+| day                              |  tell the current day                                                                                   |
+|                                  |                                                                                                         |   
+| date                             |  tell the current date (DD-MM-YYYY)                                                                     |
+|                                  |                                                                                                         | 
+| weather + <cityname>             |  tells the current weather of a city  [ CITY NAME ALWAYS AT END ]                                       |
+|                                  |                                                                                                         | 
+|     + forecast                   |  gives weather forecast of a city of that day (min/max temp and rain probability)                       |
+|                                  |                                                                                                         | 
+|           + detail               |  additionally includes sunset time, sunrise time, moonphase, Air quality and uv index                   |
+|                                  |                                                                                                         | 
+|     + daily forecast             |  gives weather forecast of a city for 5 days (min/max temp)                                             |
+|                                  |                                                                                                         | 
+|           + detail               |  additionally includes sunset time, sunrise time,rain probability, moonphase, Air quality and uv index  |
+|                                  |                                                                                                         | 
+| recommend movie/show             |  -                                                                                                      |
+|                                  |                                                                                                         | 
+|     + similiar+ <movie/show name>|  recommends movies/shows similiar to a specific movie/show                                              |
+|                                  |                                                                                                         | 
+|     + top rated                  |  recommends top rated movies/shows of all time                                                          |
+|                                  |                                                                                                         | 
+|     + trending day/week          |  recommends trending movies/shows of that day/week                                                      |
+|                                  |                                                                                                         | 
+| schedule/calender                |  -                                                                                                      |
+|                                  |                                                                                                         | 
+|     + -1                         |  lists all calender names                                                                               |
+|                                  |                                                                                                         | 
+|     + -2  {name}                 |  makes a new calender                                                                                   |
+|                                  |                                                                                                         | 
+|     + -3                         |  creates a new event                                                                                    |
+|                                  |                                                                                                         | 
+|       + calendername + eventname |                                                                                                         |
+|       + hours + recurring(y/n)   | if y then add + frequency"WEEKLY/DAILY" + interval"1/2"+startdate[MO/TU/WE/TH/FR/SA/SU]+start(ref below)|             
+|                                  | if n then add + startdate in "yyyy-mm-dd-hh-mm" format                                                  |
+|                                  |                                                                                                         | 
+|     + -4                         |  updates an event                                                                                       |
+|                                  |                                                                                                         | 
+|     + -5                         |  deletes an event                                                                                       |
+|                                  |                                                                                                         | 
+|     + -6                         |  list all upcoming events in all/one calender(s)                                                        |
+|                                  |                                                                                                         | 
+| pomodoro                         |  starts a pomodoro timer (runs as separate window till closed)                                          |
+|                                  |                                                                                                         | 
+| pomodoro -e                      |  allows user to edit pomodoro clock timings (format:[worktime shortbreaktime longbreaktime])            |
+|                                  |                                                                                                         |   
+| todo/tasks                       |  opens to-do list application                                                                           |
+|                                  |                                                                                                         | 
+| email/send mail                  |  starts a mail correspondance                                                                           |
+|                                  |                                                                                                         | 
+| music                            |  opens music command series [for more info look at MUSIC section below]                                 | 
+|                                  |                                                                                                         | 
+| game                             |  opens a new window w a 2 player ping pong game                                                         | 
+|                                  |                                                                                                         |   
+| joke/make me laugh               |  tells a random joke                                                                                    |
+|                                  |                                                                                                         |   
+| clean/autoremove                 |  cleans junk system files (Linux command)                                                               |
+|                                  |                                                                                                         | 
+| news/headlines                   |  tells the top 5 headlines at the current time (source BBC)                                             |
+|                                  |                                                                                                         | 
+| system info                      |  gives basic system information                                                                         | 
+|                                  |                                                                                                         |   
+|     + complete                   |  gives detailed software and hardware information                                                       |
+|                                  |                                                                                                         | 
+| open app + <keyword>             |  opens the specific app                                                                                 |
+|                                  |  keywords: paint,word,ppt,excel,music                                                                   |
+|                                  |                                                                                                         | 
+| open <file name w extension>     |  opens file in default browser (directory:Documents)                                                    | 
+|                                  |                                                                                                         | 
+| open <website-name>              |  opens the website on default browser                                                                   |
+|                                  |  available: Google and Youtube                                                                          |
+|                                  |                                                                                                         | 
+| search google <question>         |  searchs answer for question on google                                                                  |
+|                                  |                                                                                                         | 
+| bye                              |  exits application                                                                                      |
+ ————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+misc features:
+    >>> pointer automatically goes to entry box on startup and immediately after swithing tabs
+    >>> program runs on startup of laptop
